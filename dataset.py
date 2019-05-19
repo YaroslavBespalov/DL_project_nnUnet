@@ -30,7 +30,7 @@ class BaseDataset(Dataset):
 
 class TrainDataset(BaseDataset):
     def __init__(self, path, transform):
-        super().__init__(self, path, transform)
+        super().__init__(path, transform)
 
     def __getitem__(self, index):
         name = self.ids[index]
