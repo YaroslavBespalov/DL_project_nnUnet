@@ -13,6 +13,6 @@ def get_path(data_path='datasets/'):
         imglist_tr = glob(path_tr + '/*.gz')
         imglist_tr_label = glob(path_tr_label + '/*.gz')
 
-        for path_ in imglist_tr:
-            path.append([imglist_tr + path_, imglist_tr_label + path_])
+        for i in range(len(imglist_tr)):
+            path.append([imglist_tr[i], imglist_tr_label[i]])
     return path
