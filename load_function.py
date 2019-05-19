@@ -25,7 +25,8 @@ def get_path(data_path='datasets/'):
 def get_list(path):
     '''return all samples in list: [[train_sample],sample_mask]]'''
     res_list = []
-    for train_path, label_path in path:
+    if isinstance (path[0], str):
+        train_path, label_path = path
         img = nib.load(train_path).get_fdata()
         img_label = nib.load(label_path).get_fdata()
         if (len(img.shape) != 3):
@@ -33,4 +34,14 @@ def get_list(path):
                 res_list.append([img[:, :, :, i] , img_label])
         else:
             res_list.append([img, img_label])
+
+    else:
+        for train_path, label_path in path:
+            img = nib.load(train_path).get_fdata()
+            img_label = nib.load(label_path).get_fdata()
+            if (len(img.shape) != 3):
+                for i in range(img.shape[3]):
+                    res_list.append([img[:, :, :, i] , img_label])
+            else:
+                res_list.append([img, img_label])
     return res_list
