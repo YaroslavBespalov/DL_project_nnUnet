@@ -1,0 +1,13 @@
+dumps:
+  path: ../   # path to weights dir
+  weights: weights                  # name of weights dir
+  logs: logs                        # name of logs dir
+  name_save: tt                     # name to save models
+
+data:
+  path: ../../../../raid/data/decathlon # path to data directory
+  train_images: ./   # dir to train images
+  train_masks: ./    # dir to labels
+  test_images: images_test/  # dir to test
+  folds: ./Task07_Pancreas_npz/folds.csv    # validation folds
+  predictions_path: preds.csv       # predictions name
