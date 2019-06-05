@@ -1,3 +1,5 @@
+#https://github.com/Lextal/pspnet-pytorch/blob/master/pspnet.py
+
 from . import extractors
 from . import resnet
 import torch
