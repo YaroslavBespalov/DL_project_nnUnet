@@ -11,4 +11,4 @@ encoders: https://github.com/Cadene/pretrained-models.pytorch#resnext
 Spatial and channel-wise attention: https://github.com/Regaler/attention/tree/master/models
 FPN: https://github.com/jwyang/fpn.pytorch
 
-all of that githubs were modified for our tasks and our case.
+all of that githubs were modified for our tasks and our pipeline.
