@@ -15,6 +15,6 @@ encoders: https://github.com/Cadene/pretrained-models.pytorch#resnext
 
 Spatial and channel-wise attention: https://github.com/LeeJunHyun/Image_Segmentation, https://github.com/ozan-oktay/Attention-Gated-Networks/blob/master/models/networks/unet_grid_attention_3D.py
 
-FPN: https://github.com/jwyang/fpn.pytorch
+FPN: https://github.com/qubvel/segmentation_models.pytorch
 
 all of that githubs were modified for our tasks and our pipeline.
