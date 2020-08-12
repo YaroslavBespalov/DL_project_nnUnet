@@ -1,7 +1,7 @@
 # DL SkolTech project.
 # Cascade Neural Networks Algorithms for Segmentation in Medical Imaging.
 
-### The final report for the project can be found as Cascade_Neural_Network_Report.pdf.
+### The final report for the project can be found [here](https://github.com/YaroslavBespalov/DL_project_nnUnet/blob/master/Cascade_Neural_Network_Report.pdf).
 
 Github reps that were used:
 
