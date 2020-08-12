@@ -1,7 +1,9 @@
-# DL skoltech project.
+# DL SkolTech project.
 # Cascade Neural Networks Algorithms for Segmentation in Medical Imaging.
 
-githubs that were used:
+### The final report for the project can be found as Cascade_Neural_Network_Report.pdf.
+
+Github reps that were used:
 
 2d Unet: https://github.com/cosmic-cortex/pytorch-UNet
 
